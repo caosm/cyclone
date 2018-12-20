@@ -19,7 +19,7 @@ class CoreLayout extends Component {
     } = this.props;
     const selectNav = pathname === '/' ? 'overview' : pathname;
     return (
-      <Layout>
+      <Layout style={{ height: '100%' }}>
         <Header className="header">
           <div className="logo">CYCLONE</div>
           <Menu theme="dark" mode="horizontal" style={{ lineHeight: '64px' }}>
